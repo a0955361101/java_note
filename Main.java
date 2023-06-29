@@ -89,6 +89,33 @@ public class Main {
         double d1 = 12E4d;
         System.out.println(f1);
         System.out.println(d1);
+
+        // boolean
+        boolean isTrue = true;
+        boolean isFalse = false;
+        System.out.println(isTrue);
+        System.out.println(isFalse);
+
+        // char數據類型用於存儲 單個字符。該字符必須用單引號括起來
+        char myChar = 'B';
+        System.out.println(myChar);
+        // 如果您熟悉 ASCII 值，則可以使用它們來顯示某些字符
+        char myVar1 = 35, myVar2 = 36, myVar3 = 37;
+        System.out.println(myVar1);
+        System.out.println(myVar2);
+        System.out.println(myVar3);
+
+        int myInt2 = 9;
+        double myDouble2 = myInt2; // Automatic casting: int to double
+
+        System.out.println(myInt2);      // Outputs 9
+        System.out.println(myDouble2);   // Outputs 9.0
+
+        double myDouble3 = 9.78d;
+        int myInt3 = (int) myDouble3; // Manual casting: double to int
+
+        System.out.println(myDouble3);   // Outputs 9.78
+        System.out.println(myInt3);      // Outputs 9
     }
 }
 

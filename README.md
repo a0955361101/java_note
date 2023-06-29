@@ -31,3 +31,19 @@
 | double | 8bytes | Stores fractional numbers. Sufficient for storing 15 decimal digits |
 | boolean | 1bit | Stores true or false values |
 | char | 2bytes | Stores a single character/letter or ASCII values |
+
+### 非原始數據類型
+
+1. 原始數據類型和非原始數據類型之間的主要區別是：
+2. 基本類型在 Java 中是預定義的（已經定義的）。非原始類型是由程序員創建的，不是由 Java 定義的（除了String）。
+3. 非基本類型可用於調用方法來執行某些操作，而基本類型則不能。
+4. 原始類型總是有一個值，而非原始類型可以是null。
+5. 基本類型以小寫字母開頭，而非基本類型以大寫字母開頭。
+
+### Java 類型轉換
+
+在Java中，有兩種​​類型的轉換：
+1. 加寬鑄造（自動） - 將較小的類型轉換為較大的類型尺寸
+byte-> short-> char-> int-> long-> float->double
+2. 縮小鑄造（手動）- 將較大類型轉換為較小尺寸類型
+double-> float-> long-> int-> char-> short->byte
