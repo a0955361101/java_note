@@ -116,6 +116,45 @@ public class Main {
 
         System.out.println(myDouble3);   // Outputs 9.78
         System.out.println(myInt3);      // Outputs 9
+
+        int x1 = 100 + 50;
+        int y1 = x1 + 150;
+        int z1 = x1 + y1;
+        System.out.println(z1);
+
+        String txt = "Hello World";
+        System.out.println(txt.toUpperCase()); // Outputs "HELLO WORLD"
+        System.out.println(txt.toLowerCase()); // Outputs "hello world"
+
+        // 字串連接
+        String firstName = "John";
+        String lastName = "Doe";
+        System.out.println(firstName + " " + lastName);
+        // 也可以使用 concat() 方法連接兩個字符串
+        System.out.println(firstName.concat(lastName));
+
+        // 如果將兩個數字相加，結果將是一個數字
+        int x3 = 10;
+        int y3 = 20;
+        int z3 = x3 + y3;  // z3 will be 30 (an integer/number)
+        System.out.println(z3);
+        // 如果添加兩個字符串，結果將是字符串連接
+        String x4 = "10";
+        String y4 = "20";
+        String z4 = x4 + y4;  // z4 will be 1020 (a String)
+        System.out.println(z4);
+        // 如果將數字和字符串相加，結果將是字符串連接
+        String x5 = "10";
+        int y5 = 20;
+        String z5 = x5 + y5;  // z5 will be 1020 (a String)
+        System.out.println(z5);
+
+        // 該方法可用於查找x和 y的最大值：Math.max(x,y)
+        Math.max(5, 10);
+        // 該方法可用於查找x 和y的最小值：Math.min(x,y)
+        Math.min(5, 10);
+        // 該方法返回x的平方根：Math.sqrt(x)
+        Math.sqrt(64);
     }
 }
 
