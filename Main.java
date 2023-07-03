@@ -155,6 +155,16 @@ public class Main {
         Math.min(5, 10);
         // 該方法返回x的平方根：Math.sqrt(x)
         Math.sqrt(64);
+
+        int myAge = 25;
+        int votingAge = 18;
+        System.out.println(myAge >= votingAge);
+
+        if(myAge >= votingAge){
+            System.out.println("Old enough to vote!");
+        } else {
+            System.out.println("Not old enough to vote.");
+        };
     }
 }
 
